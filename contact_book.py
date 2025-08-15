@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-Contact Book (CLI)
-- Add, edit, delete contacts
-- Search by name, email, or phone
-- Sort by name or date added
-- Export to CSV
-- Data stored in contacts.json
-
-Author: Akshay’s Resume Pack — Project 2/3
-"""
-
 import json
 import csv
 import os
@@ -204,3 +192,4 @@ search_contacts),
 
 if __name__ == "__main__":
     main_menu()
+
